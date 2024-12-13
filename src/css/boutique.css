@@ -1,0 +1,58 @@
+.shop-section {
+    padding: 20px;
+    background: #001f00;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.pass-item {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #004d00;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #004d00, #001f00);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    text-align: center;
+}
+
+.pass-item h2 {
+    font-size: 2.5em;
+    color: #82f4b1;
+    margin-bottom: 10px;
+}
+
+.pass-item p {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.pass-item button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background: black;
+    color: #82f4b1;
+    border: 1px solid #004d00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pass-item button:hover {
+    background: #004d00;
+    color: white;
+}
+
+.shop-section h3 {
+    font-size: 1.5em;
+    color: #82f4b1;
+    margin-top: 30px;
+}
+
+.shop-section hr {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #004d00;
+}

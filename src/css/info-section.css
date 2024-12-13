@@ -1,16 +1,16 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensure body spans the full height of the viewport */
-    background-color: #002800; /* Match dark green background */
+    height: 100%; 
+    background-color: #002800; 
 }
 
-/* Ensure sections stack properly without gaps */
+
 section {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #002800; /* Uniform background */
+    background-color: #002800; 
 }
 
 /* Hero Section */
@@ -99,17 +99,17 @@ section {
     transform: scale(1.05); 
 }
 .info-section {
-    max-width: 100%; /* No fixed width */
+    max-width: 100%; 
     padding: 15px;
-    font-size: 14px; /* Adjust font size for phones */
+    font-size: 14px; 
 }
 
 .details h3 {
-    font-size: 18px; /* Slightly smaller headings */
+    font-size: 18px; 
 }
 
 .details p, .details ul {
-    font-size: 14px; /* Comfortable reading size */
+    font-size: 14px; 
 }
 
 .reserve-btn {

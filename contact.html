@@ -5,16 +5,33 @@
     <title>Contact - CinéNature</title>
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/menu.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="logo">
-            <img src="path/to/logo.png" alt="CinéNature Logo">
+            <a href="index.html">
+                <img src="assets/CinéNature logo.png" alt="CinéNature Logo">
+            </a>
         </div>
-        <div class="menu-icon">
-            <i class="fas fa-bars"></i>
-        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
     </header>
+
+    
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <ul class="menu-items">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="decouvrez-nous.html">Découvrez-nous</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="#film">Film</a></li>
+            <li><a href="#boutique">Boutique</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#apropos">À propos</a></li>
+        </ul>
+    </div>
+
     
     <main>
         <section class="contact-section">
@@ -69,5 +86,6 @@
             </p>
         </div>
     </footer>
+    <script src="src/js/menu.js"></script>
 </body>
 </html>

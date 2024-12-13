@@ -16,7 +16,7 @@ p {
     margin: 10px 0;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -148,7 +148,7 @@ main {
     margin-top: 20px;
 }
 
-/* Impact Section */
+
 .impact {
     margin-bottom: 40px;
 }
@@ -188,7 +188,6 @@ footer .social-media img:hover {
     transform: scale(1.2);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     header nav ul {
         flex-direction: column;

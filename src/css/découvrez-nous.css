@@ -45,12 +45,12 @@ body {
 #lieu {
     text-align: center;
     padding: 20px 0;
-    background-color: #003300; /* Même fond que la page */
+    background-color: #003300; 
 }
 
 #lieu h2 {
     font-size: 2em;
-    color: #86cc86; /* Couleur harmonieuse */
+    color: #86cc86; 
     margin-bottom: 20px;
 }
 

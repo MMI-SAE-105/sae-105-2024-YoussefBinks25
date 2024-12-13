@@ -1,0 +1,95 @@
+.programme-intro {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    background-color: #003300;
+}
+
+.programme-intro h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.programme-intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.programme-intro .programme-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Programme Details Section */
+.programme-details {
+    padding: 20px;
+    background-color: #004d00;
+    color: #e0e0e0;
+}
+
+.programme-details h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #009900;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.programme-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.programme-details li {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.programme-details p {
+    margin: 5px 0 15px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: linear-gradient(to top, #003300, #004d00);
+    text-align: center;
+    color: #ffffff;
+}
+
+footer .footer-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+footer .footer-content p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+footer .social-icons img {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.1);
+}

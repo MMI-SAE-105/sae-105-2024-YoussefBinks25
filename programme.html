@@ -3,65 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/footer.css">
+    <title>Notre programme</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/menu.css">
     <link rel="stylesheet" href="src/css/programme.css">
-    <title>Programme - CinéNature</title>
 </head>
 <body>
-    <!-- Header -->
-    <header>
+    
+    <header class="header">
         <div class="logo">
-            <img src="assets/logo.png" alt="Logo CinéNature">
+            <a href="index.html">
+                <img src="assets/CinéNature logo.png" alt="CinéNature Logo">
+            </a>
         </div>
-        <div class="menu-icon" onclick="toggleMenu()">
-            <span>&#9776;</span>
-        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
     </header>
+ 
+    <main>
+        <section class="programme-intro">
+            <h1>Notre programme:</h1>
+            <p>
+                Plongez dans l'univers du cinéma écoresponsable au cœur de la nature ! Rejoignez-nous pour le Festival CinéNature, 
+                du 5 au 8 juillet 2025, et découvrez des films inspirants qui célèbrent la beauté de notre planète tout en engageant 
+                des actions pour sa préservation. Ensemble, faisons du cinéma un vecteur de changement.
+            </p>
+            <div class="programme-image">
+                <img src="assets/festival-photo.jpg" alt="Festival CinéNature">
+            </div>
+        </section>
 
-    <!-- Programme -->
-    <section id="programme">
-        <h1>Notre programme:</h1>
-        <p>
-            Plongez dans l’univers du cinéma écoresponsable au cœur de la nature! Rejoignez-nous pour le festival
-            CinéNature, du 5 au 8 juillet 2025, et découvrez des films inspirants qui célèbrent la beauté de notre planète
-            tout en engageant des actions pour sa préservation. Ensemble, faisons du cinéma un vecteur de changement.
-        </p>
-
-        <img src="assets/cinema.jpg" alt="Projection en plein air" class="programme-image">
-
-        <div class="day">
+        <section class="programme-details">
             <h2>Lundi 5 juillet 2025</h2>
             <ul>
                 <li><strong>09h00 - 10h30 :</strong> Ouverture du Festival</li>
+                <p>Description : Accueil des participants et introduction au festival. Présentation des objectifs et des valeurs de CinéNature.</p>
+                
                 <li><strong>11h00 - 12h30 :</strong> Projection du Film Demain</li>
+                <p>Description : Ce documentaire explore les solutions écologiques mises en œuvre dans le monde entier pour faire face à la crise climatique.</p>
+                
                 <li><strong>12h30 - 14h00 :</strong> Pause déjeuner</li>
-                <li><strong>14h00 - 15h30 :</strong> Projection du Film La Marche</li>
+                <p>Description : Espace de restauration avec des options bio et locales.</p>
+                
+                <li><strong>16h30 - 18h00 :</strong> Projection du Film La Marche</li>
+                <p>Description : Un film inspirant sur la lutte pour le climat.</p>
+                
+                <li><strong>19h00 - 21h00 :</strong> Soirée d'ouverture</li>
+                <p>Description : Cocktail et musique live pour célébrer le début du festival.</p>
             </ul>
-        </div>
-
-        <div class="day">
-            <h2>Jeudi 8 juillet 2025</h2>
-            <ul>
-                <li><strong>11h30 :</strong> Atelier "Animation et Sensibilisation"</li>
-                <li><strong>15h00 :</strong> Projection de L'Intelligence des Arbres</li>
-                <li><strong>17h30 :</strong> Clôture du Festival et remise des prix</li>
-            </ul>
-        </div>
-    </section>
+            <!-- Ajouter d'autres jours comme "Mardi", "Mercredi", etc. -->
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <h2>CinéNature</h2>
-            <p>CONTACT</p>
-            <p>+33 1 23 45 67 89</p>
-            <p>contact@cine-nature.fr</p>
+            <h3>CinéNature</h3>
+            <p>
+                CONTACT<br>
+                +33 1 23 45 67 89<br>
+                contact@cine-nature.fr
+            </p>
             <div class="social-icons">
-                <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/facebook-icon.png" alt="Facebook"></a>
             </div>
+            <p class="footer-note">
+                Site Web réalisé dans le cadre d'une situation d'apprentissage au département MMI de Montbéliard.
+            </p>
         </div>
     </footer>
 

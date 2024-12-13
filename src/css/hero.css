@@ -1,17 +1,17 @@
 #accueil {
-    display: flex; /* Utilisation de Flexbox */
-    flex-direction: column; /* Place les éléments verticalement */
-    justify-content: center; /* Centre verticalement */
-    align-items: center; /* Centre horizontalement */
-    text-align: center; /* Centre le texte */
-    height: 100vh; /* Occupe toute la hauteur de la fenêtre */
-    background-color: #002800; /* Couleur de fond */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 100vh; 
+    background-color: #002800; 
     padding: 20px;
 }
 
 #accueil .content h1 {
     font-size: 36px;
-    color: #86cc86; /* Vert clair */
+    color: #86cc86; 
     margin-bottom: 10px;
 }
 
@@ -22,8 +22,8 @@
 }
 
 #accueil .content img {
-    max-width: 90%; /* L'image ne dépassera pas la largeur de l'écran */
+    max-width: 90%; 
     height: auto;
-    border-radius: 8px; /* Ajout d'arrondi aux coins */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Effet d'ombre */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }

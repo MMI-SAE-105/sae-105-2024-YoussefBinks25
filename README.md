@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Khadhraoui
+- PRÉNOM : Youssef
+- GROUPE : B2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/PNOG8XZocEqUrUGI5SPub6/Untitled?node-id=37-76&t=zOSIEzLk2w76NH8M-1
 
 ## Sujet
 

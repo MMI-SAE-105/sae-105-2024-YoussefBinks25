@@ -28,7 +28,7 @@
     align-items: center;
     padding: 10px 20px;
     background: linear-gradient(to right, #ffffff, #004d00);
-    height: auto; /* Adjusts for content height */
+    height: auto; 
     color: white;
 }
 
@@ -42,13 +42,13 @@
     gap: 10px;
 }
 
-/* Mobile adjustments */
+
 @media (max-width: 768px) {
     .logo img {
-        height: 30px; /* Smaller logo for phones */
+        height: 30px; 
     }
 
     .header-icons .icon {
-        font-size: 20px; /* Smaller icons */
+        font-size: 20px; 
     }
 }

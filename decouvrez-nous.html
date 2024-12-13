@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découvrez-nous | CinéNature</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/decouvrez-nous.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/CinéNature logo.png" alt="CinéNature Logo">
+            </a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <ul class="menu-items">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="decouvrez-nous.html">Découvrez-nous</a></li>
+            <li><a href="#programme">Programme</a></li>
+            <li><a href="#film">Film</a></li>
+            <li><a href="#boutique">Boutique</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#apropos">À propos</a></li>
+        </ul>
+    </div>
+
+   
+    <main>
+        <section id="decouvrez-nous">
+            <h1>Découvrez-nous:</h1>
+            <p>
+                CinéNature est un festival qui célèbre le cinéma sous toutes ses formes, tout en mettant l’accent sur l’éco-responsabilité.
+                Notre mission est de créer un événement qui non seulement divertit, mais qui éduque également sur l’importance de la protection de notre planète.
+                Nous croyons fermement que le cinéma peut être un vecteur de changement, et nous invitons les participants à explorer cette idée avec nous.
+            </p>
+            <img src="assets/foret.png" alt="Nature">
+            <p>
+                CinéNature se positionne comme un événement cinématographique éco-responsable unique en Bourgogne-Franche-Comté, mettant en avant des films engagés et des réalisateurs talentueux.
+            </p>
+            <img src="assets/nature-image2.jpg" alt="Cerf dans la nature">
+        </section>
+
+        <section id="lieu">
+            <h2>Lieu:</h2>
+            <img src="assets/map-image.jpg" alt="Carte du lieu">
+        </section>
+    </main>
+
+  
+    <footer class="footer">
+        <h2>CinéNature</h2>
+        <p>Contact: contact@cine-nature.fr</p>
+    </footer>
+
+ 
+    <script src="src/js/menu.js"></script>
+</body>
+</html>

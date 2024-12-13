@@ -6,23 +6,23 @@
     text-align: center; 
     height: 100vh; 
     background-color: #002800; 
-    padding: 20px;
+    padding: 10px;
 }
 
 #accueil .content h1 {
-    font-size: 36px;
+    font-size: 200px;
     color: #86cc86; 
     margin-bottom: 10px;
 }
 
 #accueil .content p {
-    font-size: 20px;
+    font-size: 36px;
     color: white;
     margin-bottom: 20px;
 }
 
 #accueil .content img {
-    max-width: 90%; 
+    max-width: 80%; 
     height: auto;
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 

@@ -1,59 +1,14 @@
-#decouvrez {
-    padding: 40px 20px;
-    background-color: #003300;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-    text-align: center;
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Espacement vertical */
 }
 
-
-#decouvrez h1 {
-    font-size: 2.5em;
-    color: #86cc86; 
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-
-#decouvrez p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-    color: #e0e0e0;
-    text-align: justify;
-    line-height: 1.8;
-}
-
-
-#decouvrez img {
-    max-width: 90%;
-    height: auto;
-    margin: 20px auto;
-    display: block;
-    border-radius: 12px; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); 
-}
-
-
-#lieu {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #002200;
-    color: #ffffff;
-    text-align: center;
-}
-
-#lieu h2 {
-    font-size: 2em;
-    color: #86cc86;
-    margin-bottom: 20px;
-}
-
-#lieu img {
+/* Style des images */
+.image-container img {
     max-width: 90%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
-    margin-top: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Ombre */
 }

@@ -1,14 +1,64 @@
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0; /* Espacement vertical */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #003300;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
 }
 
-/* Style des images */
-.image-container img {
+
+#decouvrez {
+    padding: 40px 20px;
+    background-color: #003300;
+    color: #ffffff;
+    text-align: center;
+}
+
+#decouvrez img {
     max-width: 90%;
     height: auto;
+    display: block;
+    margin: 0 auto; 
     border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Ombre */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); 
+}
+#decouvrez p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: justify;
+    color: #e0e0e0;
+}
+
+
+#decouvrez img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+
+#lieu {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #003300; /* Même fond que la page */
+}
+
+#lieu h2 {
+    font-size: 2em;
+    color: #86cc86; /* Couleur harmonieuse */
+    margin-bottom: 20px;
+}
+
+#lieu img {
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }

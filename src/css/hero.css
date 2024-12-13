@@ -1,26 +1,29 @@
-.hero {
-    text-align: center;
+#accueil {
+    display: flex; /* Utilisation de Flexbox */
+    flex-direction: column; /* Place les éléments verticalement */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    text-align: center; /* Centre le texte */
+    height: 100vh; /* Occupe toute la hauteur de la fenêtre */
+    background-color: #002800; /* Couleur de fond */
     padding: 20px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; /* Center content */
-    background-color: #002800;
+}
+
+#accueil .content h1 {
+    font-size: 36px;
+    color: #86cc86; /* Vert clair */
+    margin-bottom: 10px;
+}
+
+#accueil .content p {
+    font-size: 20px;
     color: white;
-    height: auto; /* Remove fixed height */
+    margin-bottom: 20px;
 }
 
-.hero h1 {
-    font-size: 28px; 
-    font-weight: bold; 
-    color: #b3ffb3; 
-    letter-spacing: 0.5px; 
-    margin-bottom: 10px; 
-}
-
-
-.hero p {
-    font-size: 18px; 
-    color: white; 
-    letter-spacing: 0.3px; 
-    margin-bottom: 0; 
+#accueil .content img {
+    max-width: 90%; /* L'image ne dépassera pas la largeur de l'écran */
+    height: auto;
+    border-radius: 8px; /* Ajout d'arrondi aux coins */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Effet d'ombre */
 }

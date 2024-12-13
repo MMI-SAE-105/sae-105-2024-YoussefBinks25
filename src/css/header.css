@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ffffff, #004d00);
+    height: 60px;
+    color: white;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-icons .icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ffffff, #004d00);
+    height: auto; /* Adjusts for content height */
+    color: white;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.header-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .logo img {
+        height: 30px; /* Smaller logo for phones */
+    }
+
+    .header-icons .icon {
+        font-size: 20px; /* Smaller icons */
+    }
+}

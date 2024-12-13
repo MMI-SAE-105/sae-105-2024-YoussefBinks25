@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CinéNature</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="hero.css">
-    <link rel="stylesheet" href="info-section.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="/src/style.css">
+
 </head>
 <body>
   
     <header class="header">
         <div class="logo">
-            <img src="Assets et images/CinéNature logo.png" alt="CinéNature Logo">
+            <img src="assets/CinéNature logo.png" alt="CinéNature Logo">
         </div>
         <div class="header-icons">
             <span class="icon search-icon">🔍</span>
@@ -25,7 +23,7 @@
     <section class="hero">
         <h1>CinéNature : Festival de cinéma éco-responsable!</h1>
         <p>Du 13 avril au 23 juin 2024</p>
-        <img src="Assets et images/CinéNature Visuel.png" alt="Festival Image">
+        <img src="assets/CinéNature Visuel.png" alt="Festival Image">
     </section>
 
     <section class="info-section">
@@ -66,9 +64,9 @@
                 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
                 <h3>Nous Suivre</h3>
                 <div class="social-icons">
-                    <a href="#"><img src="Assets et images/instagram.png" alt="Instagram"></a>
-                    <a href="#"><img src="Assets et images/twitter.png" alt="Twitter"></a>
-                    <a href="#"><img src="Assets et images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
                 </div>
             </div>
         </div>
@@ -76,19 +74,20 @@
             Site Web réalisé par Youssef Khadhraoui dans le cadre d'une Situation d'Apprentissage et d'Évaluation au <a href="#">département MMI de Montbéliard</a>.
         </p>
     </footer>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+   
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <ul class="menu-items">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#decouvrez">Découvrez-nous</a></li>
+            <li><a href="#programme">Programme</a></li>
+            <li><a href="#film">Film</a></li>
+            <li><a href="#boutique">Boutique</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#apropos">À propos</a></li>
+        </ul>
+        <script src="src/js/menu.js"></script>
+    </div>
 </body>
-<div class="menu-icon" onclick="toggleMenu()">☰</div>
-
-
-<div class="sidebar" id="sidebar">
-    <button class="close-btn" onclick="toggleMenu()">×</button>
-    <ul class="menu-items">
-        <li><a href="#Acceuil">index</a></li>
-        <li><a href="#decouvrez">Découvrez-nous</a></li>
-        <li><a href="#programme">Programme</a></li>
-        <li><a href="#film">Film</a></li>
-        <li><a href="#boutique">Boutique</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#apropos">À propos</a></li>
-    </ul>
-</div>
